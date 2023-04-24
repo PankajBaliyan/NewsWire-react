@@ -10,7 +10,7 @@ const breakpointColumnsObj = {
     1100: 3,
     700: 2,
     500: 1
-  };
+};
 
 const Home = () => {
     const [isLoading, setLoading] = useState(false);

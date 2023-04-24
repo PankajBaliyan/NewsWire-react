@@ -9,13 +9,13 @@ import Post from './components/Post';
 const AppRoutes = () => {
     return (
         <BrowserRouter>
-        <Header />
+            <Header />
             <Container>
-            <Routes>
-                <Route path='/' element={<Home/>}/>
-                <Route path='/contact' element={<Contact/>}/>
-                <Route path='/posts/:id' element={<Post/>}/>
-            </Routes>
+                <Routes>
+                    <Route path='/' element={<Home />} />
+                    <Route path='/contact' element={<Contact />} />
+                    <Route path='/posts/:id' element={<Post />} />
+                </Routes>
             </Container>
         </BrowserRouter>
     )
